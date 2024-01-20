@@ -25,5 +25,5 @@
 # Comment Toxicity Classification App
 Наша програма використовує натреновану модель за допомогою RandomForestClassifier приймаючи від користувача коментар та виводить токсичний це коментар чи ні. Також в нашому проеті було використано TfidfVectorizer - це інструмент для перетворення колекції текстових документів в матрицю TF-IDF (Term Frequency-Inverse Document Frequency). TF-IDF - це статистичний метод для визначення важливості кожного слова в контексті тексту та в межах всього корпусу текстів.
 А також RandomOverSampler з бібліотеки imbalanced-learn використовується для вирівнювання дисбалансу класів у вибірці даних. У багатьох випадках, коли у вас є нерівномірна кількість прикладів для кожного класу (даний клас має набагато менше екземплярів, ніж інший), це може призводити до неправильної роботи моделі, яка може переважати в бік класу з більшою кількістю екземплярів.
-![App](https://github.com/ViktorPrystai/YTcommentProject/blob/main/screenshots/result%20not%20toxic.jpg)
-![App](https://github.com/ViktorPrystai/YTcommentProject/blob/main/screenshots/result%20toxic.jpg)
+![App](https://github.com/ViktorPrystai/YTcommentProject/blob/main/screenshots/result%20not%20toxic.jpg)![App](https://github.com/ViktorPrystai/YTcommentProject/blob/main/screenshots/result%20toxic.jpg)
+
